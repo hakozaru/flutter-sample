@@ -9,8 +9,9 @@ class Sample extends StatelessWidget {
       ),
       body: Column(
         children: <Widget>[
-          Text("aaa"),
-          Text("bbb")
+          Text("文字です"),
+          Text("column配下なので縦に並びます"),
+          Image.asset("assets/images/img.png"),
         ],
       ),
     );
